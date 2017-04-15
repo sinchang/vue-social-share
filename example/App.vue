@@ -8,6 +8,7 @@
 </template>
 
 <script>
+  import GitHubBadge from 'vue-github-badge'
   export default {
     data() {
       return {
@@ -15,6 +16,9 @@
 
         }
       }
+    },
+    components: {
+      'github-badge': GitHubBadge
     }
   }
 </script>
