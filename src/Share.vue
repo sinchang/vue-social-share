@@ -8,12 +8,7 @@ export default {
   name: 'share',
   props: {
     config: {
-      type: Object,
-      default() {
-        return {
-          sites: ['weibo', 'qq', 'wechat', 'tencent', 'douban', 'qzone', 'linkedin', 'facebook', 'twitter', 'google']
-        }
-      }
+      type: Object
     }
   },
   mounted() {
