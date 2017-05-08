@@ -2,6 +2,10 @@
 
 > A Vue 2.x social share component based on [Share.js](https://github.com/overtrue/share.js)
 
+[![NPM version](https://img.shields.io/npm/v/vue-social-share.svg?style=flat)](https://npmjs.com/package/vue-social-share) 
+[![Vue 2.x](https://img.shields.io/badge/Vue-2.x-brightgreen.svg)](https://vuejs.org/v2/guide/)
+[![NPM downloads](https://img.shields.io/npm/dm/vue-social-share.svg?style=flat)](https://npmjs.com/package/vue-social-share) 
+
 [Live Demo](http://vue-social-share.surge.sh/)
 
 ## Install
