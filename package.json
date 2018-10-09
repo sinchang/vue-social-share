@@ -14,23 +14,16 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo lol",
-    "lint": "vbuild -c vbuild.example.js --eslint",
-    "build": "npm run build:cjs && npm run build:umd",
-    "build:cjs": "vbuild -c vbuild.component.js --format cjs",
-    "build:umd": "vbuild -c vbuild.component.js --format umd",
-    "example": "vbuild -c vbuild.example.js -d",
-    "deploy": "vbuild -c vbuild.example.js && gh-pages -d dist-example",
-    "surge": "vbuild -c vbuild.example.js && surge ./dist-example",
-    "publish": "npm run build && npm publish"
+    "serve": "vue-cli-service serve example",
+    "build": "vue-cli-service build --target lib --name Share src/index.js"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "vbuild": "^6.0.0"
+    "vue": "^2.5.17",
+    "vue-github-badge": "^1.0.1",
+    "vue-template-compiler": "^2.5.17"
   },
   "license": "MIT",
   "dependencies": {
-    "social-share.js": "^1.0.16",
-    "vue-github-badge": "^1.0.0"
+    "social-share.js": "^1.0.16"
   }
 }

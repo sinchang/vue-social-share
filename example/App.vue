@@ -8,51 +8,49 @@
 </template>
 
 <script>
-  import GitHubBadge from 'vue-github-badge'
-  export default {
-    data() {
-      return {
-        config: {
-
-        }
-      }
-    },
-    components: {
-      'github-badge': GitHubBadge
+import GitHubBadge from 'vue-github-badge'
+export default {
+  data() {
+    return {
+      config: {}
     }
+  },
+  components: {
+    'github-badge': GitHubBadge
   }
+}
 </script>
 
 <style>
-  body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-  a {
-    color: #42b983;
-    text-decoration: none;
-  }
+a {
+  color: #42b983;
+  text-decoration: none;
+}
 
+h1 {
+  font-size: 54px;
+  color: #42b983;
+  margin: 30px 0 10px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
   h1 {
-    font-size: 54px;
-    color: #42b983;
-    margin: 30px 0 10px;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 22px;
-    color: #555;
+    font-size: 16px;
   }
-
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 30px;
-    }
-
-    h2 {
-      font-size: 16px;
-    }
-  }
+}
 </style>
