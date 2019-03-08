@@ -14,16 +14,18 @@
     "dist"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve example",
+    "dev": "vue-cli-service serve example",
+    "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --target lib --name Share src/index.js"
   },
   "devDependencies": {
-    "vue": "^2.5.17",
+    "@vue/cli-service": "^3.4.1",
     "vue-github-badge": "^1.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "vue-svg-loader": "^0.12.0",
+    "vue-template-compiler": "^2.6.8"
   },
   "license": "MIT",
-  "dependencies": {
-    "social-share.js": "^1.0.16"
+  "peerDependencies": {
+    "vue": "^2.6.8"
   }
 }

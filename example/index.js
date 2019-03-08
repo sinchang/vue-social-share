@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Share from '../src/index.js'
+import { WeiboShareButton } from "../src/index.js";
 
-Vue.use(Share)
+Vue.use(WeiboShareButton)
 
 new Vue({
   el: '#app',

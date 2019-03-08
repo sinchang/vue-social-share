@@ -1,24 +1,23 @@
 <template>
   <div id="app">
     <h1>Vue-Social-Share</h1>
-    <h2>A Vue 2.x social share component </h2>
-    <github-badge slug="sinchang/vue-social-share" />
-    <share :config="config"></share>
+    <h2>A Vue 2.x social share component</h2>
+    <github-badge slug="sinchang/vue-social-share"/>
+    <WeiboShareButton></WeiboShareButton>
   </div>
 </template>
 
 <script>
-import GitHubBadge from 'vue-github-badge'
+import GitHubBadge from "vue-github-badge";
+
 export default {
   data() {
     return {
       config: {}
-    }
+    };
   },
-  components: {
-    'github-badge': GitHubBadge
-  }
-}
+  components: { "github-badge": GitHubBadge }
+};
 </script>
 
 <style>

@@ -1,11 +1,11 @@
-import Share from './Share.vue'
+import WeiboShareButton from './WeiboShareButton.vue'
 
-Share.install = Vue => {
-  Vue.component('share', Share)
+WeiboShareButton.install = Vue => {
+  Vue.component('WeiboShareButton', WeiboShareButton)
 }
 
 if (typeof window !== 'undefined' && window.vue) {
-  window.Share = Share
+  window.WeiboShareButton = WeiboShareButton
 }
 
-export default Share
+export { WeiboShareButton };
