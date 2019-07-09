@@ -24,6 +24,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "social-share.js": "git+https://github.com/overtrue/share.js"
+    "social-share.js": "git+ssh://github.com/overtrue/share.js"
   }
 }
