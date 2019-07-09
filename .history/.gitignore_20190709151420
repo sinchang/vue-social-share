@@ -1,0 +1,9 @@
+node_modules
+*.log
+.DS_Store
+.history
+
+# produced by vbuild
+dist
+dist-example
+
